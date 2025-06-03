@@ -1,0 +1,13 @@
+# Rust
+/target
+
+# Environment
+.env
+
+# Jetbrins IDEs
+.idea
+
+# Added by goreleaser init:
+dist/
+.intentionally-empty-file.o
+target/
