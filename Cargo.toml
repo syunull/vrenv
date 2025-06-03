@@ -1,0 +1,20 @@
+[package]
+name = "vrenv"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "vrenv"
+path = "src/lib.rs"
+
+[[bin]]
+name = "vrenv"
+path = "src/bin/main.rs"
+
+[dependencies]
+anyhow = "1"
+aws-config = "1"
+aws-sdk-secretsmanager = "1"
+clap = { version = "4", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["full"] }
